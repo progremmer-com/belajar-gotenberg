@@ -2,6 +2,7 @@ version: "3"
 
 services:
   gotenbreg:
+    container_name: gotenbreg
     build:
         context: .
         dockerfile: Dockerfile
